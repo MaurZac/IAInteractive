@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		C560157C28760E05008274D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560157B28760E05008274D1 /* AppDelegate.swift */; };
 		C560157E28760E05008274D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560157D28760E05008274D1 /* SceneDelegate.swift */; };
-		C560158028760E05008274D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560157F28760E05008274D1 /* ViewController.swift */; };
-		C560158328760E05008274D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C560158128760E05008274D1 /* Main.storyboard */; };
 		C560158528760E06008274D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C560158428760E06008274D1 /* Assets.xcassets */; };
 		C560158828760E06008274D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C560158628760E06008274D1 /* LaunchScreen.storyboard */; };
+		C5601597287667EE008274D1 /* LogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5601590287667EE008274D1 /* LogPresenter.swift */; };
+		C5601598287667EE008274D1 /* LogLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5601591287667EE008274D1 /* LogLocalDataManager.swift */; };
+		C5601599287667EE008274D1 /* LogProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5601592287667EE008274D1 /* LogProtocols.swift */; };
+		C560159A287667EE008274D1 /* LogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5601593287667EE008274D1 /* LogInteractor.swift */; };
+		C560159B287667EE008274D1 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5601594287667EE008274D1 /* LogView.swift */; };
+		C560159C287667EE008274D1 /* LogRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5601595287667EE008274D1 /* LogRemoteDataManager.swift */; };
+		C560159D287667EE008274D1 /* LogWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5601596287667EE008274D1 /* LogWireFrame.swift */; };
+		C560159F2876694B008274D1 /* LogView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C560159E2876694B008274D1 /* LogView.storyboard */; };
+		C56015A828767301008274D1 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56015A128767301008274D1 /* HomePresenter.swift */; };
+		C56015A928767301008274D1 /* HomeLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56015A228767301008274D1 /* HomeLocalDataManager.swift */; };
+		C56015AA28767301008274D1 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56015A328767301008274D1 /* HomeProtocols.swift */; };
+		C56015AB28767301008274D1 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56015A428767301008274D1 /* HomeInteractor.swift */; };
+		C56015AC28767301008274D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56015A528767301008274D1 /* HomeView.swift */; };
+		C56015AD28767301008274D1 /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56015A628767301008274D1 /* HomeRemoteDataManager.swift */; };
+		C56015AE28767301008274D1 /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56015A728767301008274D1 /* HomeWireFrame.swift */; };
+		C56015B028767CDB008274D1 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56015AF28767CDB008274D1 /* HomeView.storyboard */; };
+		C56015B22876990E008274D1 /* LogEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56015B12876990E008274D1 /* LogEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C560157828760E05008274D1 /* IAInteractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAInteractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C560157B28760E05008274D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C560157D28760E05008274D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C560157F28760E05008274D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C560158228760E05008274D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C560158428760E06008274D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C560158728760E06008274D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C560158928760E06008274D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5601590287667EE008274D1 /* LogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogPresenter.swift; sourceTree = "<group>"; };
+		C5601591287667EE008274D1 /* LogLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLocalDataManager.swift; sourceTree = "<group>"; };
+		C5601592287667EE008274D1 /* LogProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogProtocols.swift; sourceTree = "<group>"; };
+		C5601593287667EE008274D1 /* LogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInteractor.swift; sourceTree = "<group>"; };
+		C5601594287667EE008274D1 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		C5601595287667EE008274D1 /* LogRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRemoteDataManager.swift; sourceTree = "<group>"; };
+		C5601596287667EE008274D1 /* LogWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWireFrame.swift; sourceTree = "<group>"; };
+		C560159E2876694B008274D1 /* LogView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogView.storyboard; sourceTree = "<group>"; };
+		C56015A128767301008274D1 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C56015A228767301008274D1 /* HomeLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalDataManager.swift; sourceTree = "<group>"; };
+		C56015A328767301008274D1 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C56015A428767301008274D1 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C56015A528767301008274D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C56015A628767301008274D1 /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		C56015A728767301008274D1 /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
+		C56015AF28767CDB008274D1 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		C56015B12876990E008274D1 /* LogEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,46 @@
 		C560157A28760E05008274D1 /* IAInteractive */ = {
 			isa = PBXGroup;
 			children = (
+				C560158F287667C6008274D1 /* Login */,
+				C56015A0287672D9008274D1 /* Home */,
 				C560157B28760E05008274D1 /* AppDelegate.swift */,
 				C560157D28760E05008274D1 /* SceneDelegate.swift */,
-				C560157F28760E05008274D1 /* ViewController.swift */,
-				C560158128760E05008274D1 /* Main.storyboard */,
 				C560158428760E06008274D1 /* Assets.xcassets */,
 				C560158628760E06008274D1 /* LaunchScreen.storyboard */,
 				C560158928760E06008274D1 /* Info.plist */,
 			);
 			path = IAInteractive;
+			sourceTree = "<group>";
+		};
+		C560158F287667C6008274D1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C560159E2876694B008274D1 /* LogView.storyboard */,
+				C5601594287667EE008274D1 /* LogView.swift */,
+				C5601593287667EE008274D1 /* LogInteractor.swift */,
+				C5601590287667EE008274D1 /* LogPresenter.swift */,
+				C56015B12876990E008274D1 /* LogEntity.swift */,
+				C5601592287667EE008274D1 /* LogProtocols.swift */,
+				C5601591287667EE008274D1 /* LogLocalDataManager.swift */,
+				C5601595287667EE008274D1 /* LogRemoteDataManager.swift */,
+				C5601596287667EE008274D1 /* LogWireFrame.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C56015A0287672D9008274D1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C56015AF28767CDB008274D1 /* HomeView.storyboard */,
+				C56015A528767301008274D1 /* HomeView.swift */,
+				C56015A428767301008274D1 /* HomeInteractor.swift */,
+				C56015A128767301008274D1 /* HomePresenter.swift */,
+				C56015A228767301008274D1 /* HomeLocalDataManager.swift */,
+				C56015A328767301008274D1 /* HomeProtocols.swift */,
+				C56015A628767301008274D1 /* HomeRemoteDataManager.swift */,
+				C56015A728767301008274D1 /* HomeWireFrame.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +187,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C560158828760E06008274D1 /* LaunchScreen.storyboard in Resources */,
+				C560159F2876694B008274D1 /* LogView.storyboard in Resources */,
+				C56015B028767CDB008274D1 /* HomeView.storyboard in Resources */,
 				C560158528760E06008274D1 /* Assets.xcassets in Resources */,
-				C560158328760E05008274D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +200,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C560158028760E05008274D1 /* ViewController.swift in Sources */,
+				C560159D287667EE008274D1 /* LogWireFrame.swift in Sources */,
+				C56015AC28767301008274D1 /* HomeView.swift in Sources */,
+				C5601598287667EE008274D1 /* LogLocalDataManager.swift in Sources */,
+				C56015B22876990E008274D1 /* LogEntity.swift in Sources */,
+				C560159C287667EE008274D1 /* LogRemoteDataManager.swift in Sources */,
+				C56015A828767301008274D1 /* HomePresenter.swift in Sources */,
+				C56015AA28767301008274D1 /* HomeProtocols.swift in Sources */,
+				C56015AD28767301008274D1 /* HomeRemoteDataManager.swift in Sources */,
 				C560157C28760E05008274D1 /* AppDelegate.swift in Sources */,
+				C56015A928767301008274D1 /* HomeLocalDataManager.swift in Sources */,
+				C56015AE28767301008274D1 /* HomeWireFrame.swift in Sources */,
+				C56015AB28767301008274D1 /* HomeInteractor.swift in Sources */,
 				C560157E28760E05008274D1 /* SceneDelegate.swift in Sources */,
+				C5601599287667EE008274D1 /* LogProtocols.swift in Sources */,
+				C560159B287667EE008274D1 /* LogView.swift in Sources */,
+				C5601597287667EE008274D1 /* LogPresenter.swift in Sources */,
+				C560159A287667EE008274D1 /* LogInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C560158128760E05008274D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C560158228760E05008274D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C560158628760E06008274D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +362,7 @@
 				INFOPLIST_FILE = IAInteractive/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LogView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +390,7 @@
 				INFOPLIST_FILE = IAInteractive/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LogView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
